@@ -5,28 +5,30 @@
              x:Class="AppGallery.AppBase.Menu">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
-            <StackLayout>
-                <Button Text="Home" Clicked="VoltarParaHome" />
+            <ScrollView>
+                <StackLayout>
+                    <Button Text="Home" Clicked="VoltarParaHome" />
                 
-                <Label Text="Páginas" />
-                <Button Text="ContentPage" Clicked="AbrirContentPage" />
-                <Button Text="NavigationPage" Clicked="AbrirNavigationPage" />
-                <Button Text="CarouselPage" Clicked="AbrirCarouselPage" />
-                <Button Text="TabbedPage" Clicked="AbrirTabbedPage" />
-                <Button Text="MasterDetailPage" Clicked="AbrirMasterDetailPage" />
-                <Button Text="Modal" Clicked="AbrirPaginaModal" />
+                    <Label Text="Páginas" />
+                    <Button Text="ContentPage" Clicked="AbrirContentPage" />
+                    <Button Text="NavigationPage" Clicked="AbrirNavigationPage" />
+                    <Button Text="CarouselPage" Clicked="AbrirCarouselPage" />
+                    <Button Text="TabbedPage" Clicked="AbrirTabbedPage" />
+                    <Button Text="MasterDetailPage" Clicked="AbrirMasterDetailPage" />
+                    <Button Text="Modal" Clicked="AbrirPaginaModal" />
 
-                <Label Text="Layouts" />
-                <Button Text="StackLayout" Clicked="AbrirStackLayout" />
-                <Button Text="Grid" Clicked="AbrirGrid" />
-                <Button Text="AbsoluteLayout" Clicked="AbrirAbsoluteLayout" />
-                <Button Text="RelativeLayout" Clicked="AbrirRelativeLayout" />
-                <Button Text="FlexLayout" Clicked="AbrirFlexLayout" />
+                    <Label Text="Layouts" />
+                    <Button Text="StackLayout" Clicked="AbrirStackLayout" />
+                    <Button Text="Grid" Clicked="AbrirGrid" />
+                    <Button Text="AbsoluteLayout" Clicked="AbrirAbsoluteLayout" />
+                    <Button Text="RelativeLayout" Clicked="AbrirRelativeLayout" />
+                    <Button Text="FlexLayout" Clicked="AbrirFlexLayout" />
 
-                <Label Text="Controles" />
-                <Button Text="Label" Clicked="AbrirLabel" />
+                    <Label Text="Controles" />
+                    <Button Text="Label" Clicked="AbrirLabel" />
                 
-            </StackLayout>
+                </StackLayout>
+            </ScrollView>
         </ContentPage>
     </MasterDetailPage.Master>
 
